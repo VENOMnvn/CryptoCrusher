@@ -1,0 +1,45 @@
+.search
+{
+    display: flex;
+    flex-direction: row-reverse;
+    padding:16px;
+    max-width: 1000px;
+    margin: auto;
+}
+.search input
+{
+    width:300px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+.search > *
+{
+    height: 40px;
+    margin: 10px;
+    font-size: 30px;
+}
+.searchIcon
+{
+    color: lightgrey;
+    border: 3px solid lightgrey;
+    
+    padding:0px 8px ;
+    border-radius: 8px;
+}
+.searchIcon:hover
+{
+    background-color: lightgray;
+    color: white;
+}
+
+@media screen and (width<500px){
+    .search > input
+    {
+        width: 250px;
+    }
+    .search
+    {
+        display: flex;
+        padding: 0px;
+    }
+}

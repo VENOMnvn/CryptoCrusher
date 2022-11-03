@@ -1,0 +1,36 @@
+*{
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  text-align: center;
+}
+
+.show
+{
+  display: block;
+  margin: auto;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+
+  padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 24px;
+    min-width: 80px;
+    word-break: keep-all;
+    color: #181A20;
+    border-radius: 4px;
+    min-height: 24px;
+    border: none;
+    background-image: none;
+    background-color: #FCD535;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1000px;
+}

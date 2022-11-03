@@ -1,0 +1,97 @@
+.Cryptocoin
+{
+    max-width: 1000px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.cryptoTitle
+{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    padding: 0px 10px;
+}
+.cryptoTitle img
+{
+  width: 48px;
+  height: 48px;
+}
+.cryptoTitle p
+{
+    color: grey;
+}
+.cryptoTitle>div
+{
+    display: inline;
+    width: max-content;
+    max-width: 200px;
+    font-size: 2rem;
+    font-weight: 800;
+    margin:0px 10px;
+    text-overflow: ellipsis;
+}
+.cryptoBody
+{
+ width: max-content;
+ display: flex;
+}
+.CryptoPrice
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 16px 8px;
+}
+.analysis
+{
+    max-width: 1000px;
+    margin: auto;
+}
+.greybg
+{
+    background-color: rgb(243, 242, 242);
+}
+.perform
+{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h5
+{
+    color: grey;
+}
+.alltime
+{
+    display: flex;
+    justify-content: space-between;
+}
+.alltime>div
+{
+    font-weight: 600;
+}
+.about a
+{
+ text-decoration: underline;
+ font-weight: 800;
+}
+.h1-margin
+{
+    max-width: 1000px;
+    margin: 16px auto;
+
+}
+@media  screen and (width<500px){
+.h1-live
+{
+    font-size: 24px;
+    margin-left: 5px;
+}
+.h2-performance
+{
+    margin-left: 5px;
+    font-size: 22px;
+}
+    
+}

@@ -1,0 +1,88 @@
+*
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.coin
+{
+    display: grid;
+    border-radius: 5px;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 40px 1fr 1fr 1fr 1fr;
+    padding: 16px;
+}
+.coin:hover
+{
+    background-color: rgb(240, 240, 240);
+}
+.coinName
+{
+    font-size: 16px;
+    display: flex;
+    min-width: 200px;
+    
+}
+.coinName div
+{
+    box-sizing: border-box;
+    margin: 2px 5px;
+    min-width: 0;
+    display: -webkit-box;
+    word-break: break-word;
+    -webkit-box-orient: vertical;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #707A8A;
+}
+.percent
+{
+    text-align: end;
+}
+.red
+{
+    color: red;
+}
+.green
+{
+    color:#03a66d;
+}
+.coin img
+{
+    width: 24px;
+    height: 24px;
+}
+.marketcap
+{
+    text-align: end;
+}
+
+@media screen and (width<600px)
+{
+    .coin
+    {
+        font-size: 12px;
+        grid-template-columns: 30px 1fr 1fr 1fr 1fr;
+    }
+    .coinName
+    {
+        min-width: 120px;
+    }
+    .h1-margin
+    {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .search
+    {
+     width: 90vw;
+     margin:auto;
+     box-sizing: border-box;
+    }
+    .search>input
+    {
+        width: 200px;
+       border: 1px solid red;
+    }
+}

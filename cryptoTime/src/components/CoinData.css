@@ -1,0 +1,22 @@
+.Cryptocoin
+{
+    max-width: 1000px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.CryptoTitle
+{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+}
+.CryptoTitle p
+{
+    color: grey;
+}
+.CryptoTitle>div
+{
+    display: inline;
+    width: max-content;
+    max-width: 200px;
+}
